@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div>sou o header!</div>
+    <div className=''>sou o header!</div>
   )
 }
 

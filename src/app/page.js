@@ -1,9 +1,10 @@
-import { Hero } from "../../components";
+import { AddUser, Hero } from "../../components";
 
 export default function Home() {
   return (
     <main className=''>
-      <Hero />
+      {/* <Hero /> */}
+      <AddUser />
     </main>
   )
 }

@@ -6,7 +6,7 @@ const Hero = () => {
     <div>
         <Image src="/images/background.jpg" 
         alt="Angles Fighting"
-        class="object-fill"
+        className="object-cover"
         width={100}
         height={100}
         />
