@@ -1,5 +1,8 @@
-"use client"
-import React, { useState } from 'react'
+"use client";
+import React, { useState } from 'react';
+
+//this project will be reformed to php and bootstrap only
+
 
 const AddUser = () => {
     const [name, setName] = useState("");
@@ -9,7 +12,7 @@ const AddUser = () => {
     const handleSubmit = async (e) => {
 
         e.preventDefault();
-
+        
         const formData = new FormData();
         formData.append("name", name);
         formData.append("surname", surname);
@@ -33,7 +36,7 @@ const AddUser = () => {
 
     }
 
-  return (
+    return (
     <div className=''>
 
        <form method='POST' className='' onSubmit={handleSubmit}>
